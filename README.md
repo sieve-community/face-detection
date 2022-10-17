@@ -1,4 +1,4 @@
-# YOLO Object Detection
+# Face Detection
 
 Deployed on Sieve at `developer-sievedata-com/face-detector`. You can also deploy it yourself using `sieve model` inside this repo's directory.
 
