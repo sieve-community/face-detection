@@ -13,7 +13,7 @@ from sieve.types.api import *
 cli = SieveClient()
 
 proj = SieveProject(
-    name="face_detection",
+    name="my_face_project",
     fps=5,
     store_data=True,
     workflow=SieveWorkflow([
@@ -40,4 +40,4 @@ layers:
   models: 
   - model_name: developer-sievedata-com/face-detector
 ```
-`sieve projects object_detection create -wf workflow.yaml`
+`sieve projects my_face_project create -wf workflow.yaml`
