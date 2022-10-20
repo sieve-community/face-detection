@@ -18,6 +18,9 @@ class FaceDetector(TemporalProcessor):
 
         output_objects = []
 
+        if type(faces) == tuple:
+            return output_objects
+
         for k, face in faces.items():
             out_cls = "face"
             out_bbox = BoundingBox.from_array(face['facial_area'])
