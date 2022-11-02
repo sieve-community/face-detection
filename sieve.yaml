@@ -1,4 +1,4 @@
-model_version: "0.0.1"
+model_version: "0.0.11"
 build:
   gpu: true
   system_packages:
@@ -10,5 +10,5 @@ build:
     - "requests==2.28.1"
 predict: "predictor.py:FaceDetector"
 model_name: "face-detector"
-private: true
+private: false
 iteration: "video"
